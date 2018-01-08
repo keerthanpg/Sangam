@@ -12,175 +12,26 @@
         <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
         <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="cssmain2.css">
-        <script type="text/javascript" src="jsmain2.js"></script>
-        <script type="text/javascript" src="data.js"></script>
-        <script type="text/javascript" src="data_t.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="cssmain.css">
+        <script type="text/javascript" src="jsmain.js"></script>        
     </head>
     <body>
         <div class="jumbo parallax parallax-1">
             <!--p>LUKABOT EMOTION PREDICTION</p-->
         </div>
         <div class="row text-center">
-            <h2 class="pagetitle">LukaBot</h2>
-            <p class= "subtitle">Towards an emotionally aware artificial intelligence</p>
-            <h3>Carnegie Mellon University</h3>
-            <h4>MRSD Project 2017</h4>
             <br>
-            <h4>TeamD: Deeply Emotional</h4>
-            <h4>Members: Keerthana P G, Luka Eerens, Ritwik Das</h4>
-            <h4>Sponsor: Emotech</h4>
-            <br>
-            <div class="col-md-12" style="margin:20px">
-                <ul class="nav nav-tabs col-md-12">
-                    <li><a href="#tab_1" data-target="#tab_1, #common" data-toggle="tab">Test Set 1</a></li>
-                    <li><a href="#tab_2" data-target="#tab_2, #common" data-toggle="tab">Test Set 2</a></li>
-                    <li><a href="#tab_3" data-target="#tab_3, #common" data-toggle="tab">Test Set 3</a></li>
-                    <li><a href="#tab_4" data-target="#tab_4, #common" data-toggle="tab">Test Set 4</a></li>
-                    <li><a href="#tab_5" data-target="#tab_5, #common" data-toggle="tab">Test Set 5</a></li>
-                    <li><a href="#tab_6" data-target="#tab_6, #common" data-toggle="tab">Test Set 6</a></li>
-                    <li><a href="#tab_7" data-target="#tab_7, #common" data-toggle="tab">Test Set 7</a></li>
-                    <li><a href="#tab_8" data-target="#tab_8, #common" data-toggle="tab">Test Set 8</a></li>
-                </ul>
-                <div class="tab-content col-md-6" >
-                    <div class="tab-pane fade in active" id="tab_1">
-                        <div class = "text-center">
-                        <h4>Set 1</h4>
-                        <p>Now we play test set 1</p>
-                        
-                        <video class="vids" id="vid1"  controls>
-                            <source src="test1.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="tab_2">
-                        <div class = "text-center">
-                        <h4>Set 2</h4>
-                        <p>Now we play test set 2</p>
-                        
-                        <video class="vids" id="vid2"  controls>
-                            <source src="test2.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="tab_3">
-                        <div class = "text-center">
-                        <h4>Set 3</h4>
-                        <p>Now we play test set 3</p>
-                        
-                        <video class="vids" id="vid3"   controls>
-                            <source src="test3.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="tab_4">
-                        <div class = "text-center">
-                        <h4>Set 4</h4>
-                        <p>Now we play test set 5</p>
-                        
-                        <video class="vids" id="vid4"  controls>
-                            <source src="test4.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="tab_5">
-                        <div class = "text-center">
-                        <h4>Set 5</h4>
-                        <p>Now we play test set 5</p>
-                        
-                        <video class="vids" id="vid5"  controls>
-                            <source src="test5.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="tab_6">
-                        <div class = "text-center">
-                        <h4>Set 6</h4>
-                        <p>Now we play test set 6</p>
-                        
-                        <video class="vids" id="vid6"   controls>
-                            <source src="test6.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="tab_7">
-                        <div class = "text-center">
-                        <h4>Set 7</h4>
-                        <p>Now we play test set 7</p>                    
-                        <video class="vids" id="vid7"  controls>
-                            <source src="test7.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="tab_8">
-                        <div class = "text-center">
-                        <h4>Set 8</h4>
-                        <p>Now we play test set 8</p>                    
-                        <video class="vids" id="vid8"  controls>
-                            <source src="test8.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                        </div>
-                    </div>
-                </div><!-- tab content -->
-                    <div class = "col-md-6 text-center">
-                        <h4>Valence-Arousal chart</h4>
-                        <div id="graphDiv" align="center"></div>
-                        <script type="text/javascript">
-                            
-                        </script>
-                    </div>
-                </div>
-                    <hr>
-            </div>
-            <div class="row centered">
-                <h2>Results</h2>
-                <h4>The below are results as shown by Kmeans clustering of emotional labels</h4>
-                    
-                <div id="myTabContent" class="col-md-12 res_text">
-                    <div class="col-md-3" style="background-color:#222;">
-                        <h2 class="title_text">Predicted Emotion</h2>
-                        <p id = "predicted" class="result">[1]</p>
-                    </div>
-                    <div class="col-md-3" style="background-color:#333;">
-                        <h2 class="title_text">Actual Emotion</h2>
-                        <p id = "actual" class="result">[2]</p>
-                    </div>
-                    <div class="col-md-3" style="background-color:#222;">
-                        <h2 class="title_text">Video Accuracy</h2>
-                        <p id = "accuracy" class="result">50%</p>
-                    </div>
-                    <div class="col-md-3" style="background-color:#333;">
-                        <h2 class="title_text">Model Accuracy</h2>
-                        <p id = "model_accuracy" class="result">49.50%</p>
-                    </div>
-                </div>
-                <div style="margin-top:150px;"><h4>The below are results as shown by widely accepted definitions of emotions from emotional labels</h4></div>
-                <div id="myTabContent" class="col-md-12 res_text">
-                            <div class="col-md-3" style="background-color:#222;">
-                                <h2 class="title_text">Predicted Emotion</h2>
-                                <p id = "predicted_manual" class="result">[1]</p>
-                            </div>
-                            <div class="col-md-3" style="background-color:#333;">
-                                <h2 class="title_text">Actual Emotion</h2>
-                                <p id = "actual_manual" class="result">[2]</p>
-                            </div>
-                            <div class="col-md-3" style="background-color:#222;">
-                                <h2 class="title_text">Accuracy</h2>
-                                <p id = "accuracy_manual" class="result">50%</p>
-                            </div>
-                            <div class="col-md-3" style="background-color:#333;">
-                                <h2 class="title_text">Model Accuracy</h2>
-                                <p id = "model_accuracy_manual" class="result">54%</p>
-                            </div>
-                </div>                
+            <h2 class="pagetitle">Sangam</h2>
+            <p class= "subtitle">Inspiring girls to STEM!</p>
+            <h3>Contact:</h3>
+            <h4><b>Sargam Sharma</b></h4>
+            <h4>sargam.sharma92@gmail.com</h4>  
+            <h4>+91 98116 46658</h4>       
+            <h4><b>Keerthana P G</b></h4>
+            <h4>keerthanpg@gmail.com</h4>  
+            <h4>+1 41262 08037</h4>         
+            <br>            
             </div>
         </body>
     </html>
