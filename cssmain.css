@@ -27,16 +27,15 @@ body {
     font-size: 100px;
     font-weight: 900;
     font-family: Lato;
-    line-height: 0.6;    
+    line-height: 0.6;
 }
 .subtitle {
     font-size: 40px;
     font-weight: 300;
     font-family: Lato;
-    
+    font-style: italic;
     
 }
-
 /*.container {
     padding: 80px 120px;
 }
